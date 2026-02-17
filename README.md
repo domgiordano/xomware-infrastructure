@@ -2,6 +2,15 @@
 
 Core infrastructure for the Xomware platform hub at `xomware.com`.
 
+## Xomware Ecosystem
+
+| App | URL | Frontend | Backend | Infrastructure |
+|-----|-----|----------|---------|----------------|
+| **Xomware** (Hub) | [xomware.com](https://xomware.com) | [xomware-frontend](https://github.com/domgiordano/xomware-frontend) | - | [xomware-infrastructure](https://github.com/domgiordano/xomware-infrastructure) |
+| **Xomify** | [xomify.xomware.com](https://xomify.xomware.com) | [xomify-frontend](https://github.com/domgiordano/xomify-frontend) | [xomify-backend](https://github.com/domgiordano/xomify-backend) | [xomify-infrastructure](https://github.com/domgiordano/xomify-infrastructure) |
+| **Xomcloud** | [xomcloud.xomware.com](https://xomcloud.xomware.com) | [xomcloud-frontend](https://github.com/domgiordano/xomcloud-frontend) | [xomcloud-backend](https://github.com/domgiordano/xomcloud-backend) | [xomcloud-infrastructure](https://github.com/domgiordano/xomcloud-infrastructure) |
+| **Xomper** | [xomper.xomware.com](https://xomper.xomware.com) | [xomper-front-end](https://github.com/domgiordano/xomper-front-end) | [xomper-back-end](https://github.com/domgiordano/xomper-back-end) | [xomper-infrastructure](https://github.com/domgiordano/xomper-infrastructure) |
+
 ## Architecture
 
 This workspace manages the central landing page and shared DNS zone that all Xomware apps use as subdomains:
@@ -10,8 +19,8 @@ This workspace manages the central landing page and shared DNS zone that all Xom
 |-----------|-----|-------------|
 | `xomware.com` | Hub | Landing page linking to all apps |
 | `xomify.xomware.com` | Xomify | Music tracking & social platform |
-| `xomcloud.xomware.com` | Xomcloud | Cloud download service |
-| `xomper.xomware.com` | Xomper | Email notification service |
+| `xomcloud.xomware.com` | Xomcloud | SoundCloud music library |
+| `xomper.xomware.com` | Xomper | Fantasy football companion |
 
 ## Resources
 
